@@ -1,6 +1,8 @@
-//
+//user the value
+
 import'dart:io';
 main()
 {
-    stdout.write("hello");
+   //  print("hello");
+     stdout.write("hello");
 }

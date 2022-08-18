@@ -1,10 +1,13 @@
+//write a program sum,sub,mul,and div
 main()
 {
-    int a=10;
-    int b=20;
+    int a=20;
+    var b=10.2;
 
-    print("sum ${a+b}");
-    print("sum ${a-b}");
-    print("sum ${a*b}");
-    print("sum ${a/b}");
+    print("The sum is${a+b}");
+    print(a-b);
+    print(a*b);
+    print(a/b);
+    print(a%b);
+    print(a~/b);
 }

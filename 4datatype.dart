@@ -1,19 +1,24 @@
+//data type to print
 main()
 {
-    var num1=10;
+   // var num1=10;
     int marks=10;
 
-    String name="dart programming";
-    bool status=true;
     double price=56.30;
 
-    List shooping_list=["fruits,veges"];
-    Map student={"name":"memon:","subject":"fluuter"};
+    String name="dart programming";
 
-    print(num1);
+    bool status=true;
+
+    List shooping_list=["fruits,veges"];
+
+    Map student={"name":"memon:","subject":"flutter"};
+
+   // print(num1);
     print(marks);
-    print(status);
     print(price);
+    print(name);
+    print(status);
     print(shooping_list);
     print(student);
 

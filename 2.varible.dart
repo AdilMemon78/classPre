@@ -1,12 +1,14 @@
 //varible example
+// write a progarm to variable declare
 main()
 {
     //varible : a name which can store a value
 
-    var num=10;
-    var name="flutter";
+    int num=10;
+    String name='flutter';
 
-    print(num);
-    print(name);    
+    // print("num is${num} and name is $name");
+   print("num is $num");
+   print("name is $name");    
 
 }
