@@ -1,6 +1,8 @@
 //class and object
+import 'dart:io';
 
-class student
+
+class Student
 {
     void display()
     {
@@ -11,6 +13,6 @@ void main()
 {
     // object of student class
 
-    var student = new student();
-    student.display();
+    var s1  = new Student();
+    s1.display();
 }

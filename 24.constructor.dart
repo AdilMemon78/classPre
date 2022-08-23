@@ -1,3 +1,10 @@
+import 'dart:io';
+   void main()
+     {
+        var obj=new student();
+        obj.input();
+        obj.display();
+     }
 class student
 {
     var marks;
@@ -12,11 +19,5 @@ class student
      {
         print("marks $marks");
         print("name $name");
-     }
-     void main()
-     {
-        var obj=new student();
-        obj.input();
-        obj.display();
      }
 }
