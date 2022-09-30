@@ -7,7 +7,7 @@ main()
     int num=10;
     String name='flutter';
 
-    // print("num is${num} and name is $name");
+     print("num is${num} and name is $name");
    print("num is $num");
    print("name is $name");    
 

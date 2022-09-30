@@ -11,11 +11,11 @@ main()
 
     if(num>=35)
     {
-        print('number is grethen then 35');
+        print('number is ${num} grethen then 35');
     }
     else
     {
-        print('number is small then 35 ');
+        print('number is ${num} small then 35 ');
     }
 
         print('end code');

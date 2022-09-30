@@ -1,7 +1,7 @@
 //data type to print
 main()
 {
-   // var num1=10;
+    var num1="adil";
     int marks=10;
 
     double price=56.30;
@@ -14,7 +14,7 @@ main()
 
     Map student={"name":"memon:","subject":"flutter"};
 
-   // print(num1);
+    print(num1);
     print(marks);
     print(price);
     print(name);

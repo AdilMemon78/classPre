@@ -11,6 +11,6 @@ main()
 
     if(num>35)
     {
-        print('number is grethen then 35');
+        print('number is ${num} is biggest number then 35');
     }
 }

@@ -14,7 +14,7 @@ main()
         {
             print('number 3 is greast number');
         }
-        else 
+        if(num2>num1)
         {
             if  (num2>num3)
             {
@@ -27,4 +27,6 @@ main()
         
         }
     
+    }
+
 }
