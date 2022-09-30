@@ -1,0 +1,89 @@
+ 1. Dart keyword
+
+   ->if
+	if-else
+	else if
+	for
+	while
+	do-while
+	switch
+-------------------
+2. Dart data type
+
+	number
+	string
+	bollean
+	list
+	maps
+	runes
+	symboles
+--------------------
+
+3. Dart variable
+
+	var<var_neme> =<value>;
+	
+	or
+	
+	var<var_name>;
+	
+	var name='adil';
+------------------------
+
+4.Dart operators
+
+	1.Arithmetis operators
+
+	2.Assignment Operators
+
+	3.Relational Operators
+
+	4.Type test Operators
+
+	5.Logical Operators
+
+	6.Bitwise Operator
+
+	7.Conditional Operators
+
+	8.Casecade notation(..) Operators
+
+---> 	1.Arithmetis operators--
+
+	 +,-,*,/,%(modulo)
+
+ex-->
+	++a---> increment
+	a++--->it return actual value increment
+
+--->	2.Assignment Operators
+	
+	=(assi),+=(add assin),-=(sub),*=,/=
+
+--->3.Relational Operator
+
+Sr.		Operator	 			Description
+
+1.		>(greater than)				a>b will return TRUE.
+2.		<(less than)				a<b will return FALSE.
+3.		>=(greater than or equal to)		a>=b will return TRUE.
+4.		<=(less than or equal to)		a<=b will return FALSE.
+5.		==(is equal to)				a==b will return FALSE.
+6.		!=(not equal to)				a!=b will return true
+
+
+--->5.logical operators
+
+Sr.	Operator		Description
+
+1.	&&(Logical AND)	It returns if all expressions are true.
+2.	||(Logical OR)	It returns TRUE if any expression is true.
+3.	!(Logical NOT)	It returns the complement of expression.
+
+------------------------------------------------------------------------------
+
+
+
+
+	
+	

@@ -1,0 +1,8 @@
+void main() {  
+bool check;
+bool check2;  
+check = 20>10;  
+check2 = 20<10;
+print("The statement is = ${check}");  
+print("The statement is = ${check2}");  
+}  

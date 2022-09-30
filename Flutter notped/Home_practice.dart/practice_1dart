@@ -1,0 +1,8 @@
+main()
+{
+    int a=10;
+    String b = "adil";
+
+    print(a);
+    print(b);
+}

@@ -1,0 +1,630 @@
+								1.	*****Flutter Dart*****
+								-	-----------------------
+
+1.---->Dart is a genral purpose high leval lenguage which is originally devlop by (google).
+
+2.---->it is the new programming lanvage which is emegraead in 2011 but it is stable version was relased in june 2017.
+
+3.---->it is compild lanvage and supports two types of compilation techniques.
+
+4.---->Dart programing :  Mobile apps,Web apps,server side script.
+
+5.---->dart is a pure object orinted lanvage.
+
+6.---->AOT(Ahead of time) it is converts the dart code in the optimize java script code whith the help of the dar2js.
+
+7.---->compiler and runs on all modern web-brozer it is compiles the code at build time.
+
+8.---->JOT(Just in time) it convert the bite code (native code) but only code that is necessary.
+
+
+1. *****ફ્લટર ડાર્ટ *****
+------------------------
+
+1.---->ડાર્ટ એ સામાન્ય હેતુ હાઇ લેવલ લેન્વેજ છે જે મૂળ રૂપે (google) દ્વારા વિકસાવવામાં આવ્યું છે.
+
+2.---->તે નવું પ્રોગ્રામિંગ લેન્વેજ છે જે 2011 માં એમ્ગ્રેડ છે પરંતુ તે સ્થિર સંસ્કરણ છે જે જૂન 2017 માં રજૂ કરવામાં આવ્યું હતું.
+
+3.---->તે કમ્પાઇલ્ડ લેન્વેજ છે અને બે પ્રકારની સંકલન તકનીકોને સપોર્ટ કરે છે.
+
+4.---->ડાર્ટ પ્રોગ્રામિંગ : મોબાઈલ એપ્સ, વેબ એપ્સ, સર્વર સાઇડ સ્ક્રિપ્ટ.
+
+5.--->ડાર્ટ એ શુદ્ધ પદાર્થ ઓરિન્ટેડ લેન્વેજ છે.
+
+6.--->AOT(સમયની આગળ) તે ડાર્ટ કોડને dar2js ની મદદથી optimize java સ્ક્રિપ્ટ કોડમાં કન્વર્ટ કરે છે.
+
+7.---->કમ્પાઇલર અને તમામ આધુનિક વેબ-બ્રોઝર પર ચાલે છે તે બિલ્ડ સમયે કોડને કમ્પાઇલ કરે છે.
+
+8.--->JOT(જસ્ટ સમયસર) તે બાઈટ કોડ (નેટિવ કોડ)ને કન્વર્ટ કરે છે પરંતુ માત્ર જરૂરી કોડ છે.
+
+-------------------------------------------------- -------------------------------------------------- --
+
+
+
+								2.	*****Variables*****
+								-	-------------------
+
+1.---->A name which can store value.
+
+int name=10;   int-->data type    name---->varaible     10--->value
+
+-------------------------------------------------------------------------------------------------------------
+							
+								3.*****keywords*****
+								---------------------
+
+1.---->Dart keywords are the reverse words that have special meaning for the compiler
+
+  ---->it cannot b eused as the variable name,class neme,or functoun name,keywords are case sensetive; they must be writen as they are definfd
+
+	--->there are 61 keywords in the dart
+
+-------------------------------------------------------------------------------------------------------------------------------------
+								4.Data types
+data type:							-------------
+
+
+-->The data type specifire what type of value will be stored by the variable 
+
+--->All data type  in dart are object.
+
+1> number:(int,double)
+2>string
+3>boolern
+4>list
+5>maps
+6>runes
+7>symboles
+--------------------------------------------------------------------------------------------
+
+								5.Default value
+								-------------
+
+---->While declering the varible without initializing the value then the dart compiler privides defalt value (null) to the variable.
+
+ex
+---
+	main()
+{
+	int a;
+	print("$a");
+}
+-------------------------------------------------------------------------------------------------------------------------
+							
+								6.final&const:
+								--------------
+
+--->When do not want to chaange a variable in the future then we use final and const it can we used in place of var or in addtion to atype
+
+ex
+---
+	main()
+{
+	final pi=3.14;
+	final string subname="dart";
+	
+	print("$pi");
+	print("$subname");
+
+	
+}
+---------------
+ main()
+{
+const name="dart";
+
+print("$name");
+
+}
+----------------
+
+					Difference between final and cost
+					---------------------------------
+
+
+		final: final variable can only be set once and it is initialized when accessed if we never use that variable in program than it will be not intializaed that value
+		------
+
+		const: variable is implicity final but it is a compiler time constant.
+		------					
+																																																																			
+				it is inilized during compliation.if we not using that varoable it will consume it memory
+
+---> instance variable can be final but connot be const.
+--->if weeant to use consent in class need to use static const.
+
+-------------------------------------------------------------------------------------
+
+							7.control statement
+							-----------------
+
+conditional statement
+-------------------
+	1.if statement
+	2.if...else statement
+	3.else if statement
+-------------------------------------
+	4.nested if statement
+
+	syntex:
+	if(condition)
+	{
+	statemenrt;
+	if(condition)
+	{
+	statement;
+	}
+	else
+	{
+	statement;
+	}
+}
+---------------------------------------
+
+	5.switch statement
+---------------------------------------------------
+									8.looping statement
+									-------------------
+
+	for loop
+	for..in loop
+---------------------------------------------------------------------------------------------------
+   **	while loop
+-----------------
+
+	while loop: while loop is used when the number of execution of block of code is not knows it will execute as long as the condition is true it initally
+	----------		cheak the given condition then executes the state ment that are inside the while loop 
+
+			intialization;
+			while(condition)
+			{	
+				statement;
+				increment;
+			}
+--------------------------------------------------------------------------------------------------------
+	do-while loop
+	-------------
+
+	do -while loop : do while loop wxecults a block of the statement first and then cheaks the condition.if the condition return,true the loop continues its 
+				similar to dart while loop but only differnce is in the do while loop a block of statement in side the body of loop while 
+				execults at least once
+
+	intialization;
+	do
+	{
+	body
+	}	while(condition);
+--------------------------------------------------------------------------------------------------------------------
+										9.function : 	
+										-----------
+---->set of codes that together perform a specific task it is used to break the large code in to smaller modules and resuse it when needed
+								
+	functions make the program more readable and easy to debug
+
+	in dart function is an object
+
+	syntax
+	------
+	retuntype funname(parameter
+{
+	Return statement;
+}
+-------------------
+function : practical
+
+	void hello()
+{
+print("hello welcome to dart");
+}
+main()
+{
+hello();
+}
+
+Actual parameter -->A parameter which is passed during a function defenaction is called the actual paraeters.
+
+Formal parameter-->A parameter which is passed during a function call is called the formal parameter. 
+----------------------------------------------
+	Function categories :
+	--------------------
+
+1) function without parametr and without returntype
+
+2) function with parametr and without returntype
+
+3) function without parametr and with returntype
+
+4)function with parametr and with returntype
+------------------------------------------------------------------------------------
+
+					class
+					-----
+
+class : dart classes are thr blueprint of the object,or it can be called object constructors.a class
+	  can contain fields function constures etc.it is a wrapper that binds/encapsulates the data 
+	  and function to gether,that can be accessed by creating an object.
+
+	syntax
+	------
+	class ClassName
+	{
+	
+	<data member>
+	<member function>
+
+	}
+
+-----------------------------------------------------------------------------------------
+				object
+				------
+
+object : An object is a variable or of the class used to access the class proparties object
+	   have two featurs-state and behavior
+
+	syntax
+	------
+	
+	var object_name=new class_name(<constuctor_argument>);
+
+-------------------------------------------------------------------------------------------------c
+
+Constructor
+---------
+			constructor is a different type of function which is created with same name as its
+			class name the constructors is used to intizalize an object when it is created.
+
+			
+			when we creat the object of class,then constructors is automatically called
+
+	syntex
+
+		class ClassName
+		{
+
+			ClassName()
+			{
+			}
+			
+		}
+
+-----------------------------------------------------------------------------------
+							2.	FLutter
+							-	-------
+------------------------------------------------------------------------------------			
+	2.
+	-						flutter introduction
+							------------------------
+
+	Flutter is an open-source ui software devlopment kit created by google in 2011.
+
+	Flutter apps are written in the dart lanvage and make use of many of the lanvage 's more advanced features.
+
+			
+							Who uses flutter?
+							-----------------
+
+	Some big Companis are using it.such as as Alibaha(Android ios) .Tn
+
+
+---------------------------------------------------------------------------------------------------
+
+							Flutter structure
+							-----------------
+
+			My App
+
+			(Top-Level)
+
+			   ||	
+			Materia App
+
+			   ||
+			My Homepage
+
+			   ||
+
+			Scafford
+
+			   ||
+			
+		||              ||
+
+	App Bar             Center
+
+				||
+
+			   Text
+--------------------------------------------------------------------------------------------------------------------------------------------	
+								Flutter scaffold
+								----------------
+
+-->	scaffold  is a widget in flutter used to implements the basic matrialde design visual layout structure
+
+--->	it is quick enough to create a genrel-purpose mobile application and contain almost every thing we need to create a function and resposive flutter apps.
+
+--->	it is mainly responsibly for creating a base to the app screen on which the child wideets hold on and render on the sscreen.
+
+--->	It provides many widegets or Apis for showing drawer,snackbar,BOTTOMNAVIgationBar,Appbar,FlotingActionButton,and many more.
+
+---------------------------------------------------------------------------------------------
+App :
+---	It is horizontal bar that is maninly displayed at the top of the scaffold Widget.
+	It is the main part of the scaffold widget and display at top of the screen.
+
+syntax :
+------
+	return scaffold
+	(
+		appBar:AppBar
+	(
+		title:Text("My application"),
+	),
+	)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+									Container
+									---------
+---->	Container in flutter is a parent wight that can contain multiple child Widght and manage them efficiently thorough wigth,hight,padding,back ground colour and etc...
+
+----> It allows many attributes to user for decorating its child wights,such as using margin,which sepaters the container whith other contentes.
+
+---->	A container wight is same as <div> tag in html.if this wight does not contain any child wight,it will fill the whole area on the screen automatacally .
+	otherwise,it will warp the child wight according to the specifield higght& width.
+
+---->	Widght cannot rander directly with out any parent.we can use  Scaffold widget,center widget,Padding Widget,Row Widget,or Column widget as its parent widget.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+								use Of Container :
+								------------------
+----> Widget that needs some back ground styling may be a color,shape,or size constraints,we may try to warp it in a container widgght.
+
+----> This Wight helps us to compose,decorate,and position its child wights.
+
+----> If we warp our wight in a contanier,then wighout using any parameters.we would not notice any differance in this appearance.But if we add any properties
+
+	such as color,margin,padding,etc. in a container,we can style our wights on the screen according to our neeeds.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+							Properties of container wight :
+							-------------------------------
+
+	Child:This propaties is used to store the child wight of the container
+		
+			body:container(
+				
+				child:teXt("container wight",style:textstyle(fontsize:25)),
+				)
+
+	color: backgound color of the entire container
+		
+		home:scaffold(
+		
+			appbar:appbar(
+	
+			title:text("My app"),
+
+				background color:color.cyan[300],
+		),
+		
+		body:container(
+		
+				color:colors.cyan[800],
+	
+				child:text("hello welcome",style:text style(font size:30)),
+		),
+		),
+------------------------------------------------------------------------------------
+				Transform :
+				----------
+--->The trasform property allows devloper to rateate the container it rotate.it can rotate the container in
+	any directiion,i.e.,change the container coordinate in the parent widgth.
+
+		body:container(
+				width:double.infinity;
+				colour:colour.cyan,
+				padding:edgeinsets.all(20),
+				margin:edgeinsets.all(20),
+		//		transform:matrix4.ratationz(0.5),	
+				child:text("hello welcome ",style:textstyle(fontsize:30)),
+				),
+--------------------------------------------------------------------------------------------
+		Type of widgets:
+		----------------
+					**There are two type of widgets.
+		1)visible(input-output)
+		2)invisibe(Layout-control)
+
+visible widget
+--------------
+
+	text:
+			A text widget holds some text to display on the screen.we can align the text widght by
+			using textalign property,and style proparty allow the customizetion of text that 
+			includes font,fontwidgth,font style,letter spaccing,color,and any more.. 
+-----------------------------------------------------------------------------------------------
+		invisible widget:
+		----------------	invisible widgets are related to the layout and control of widgets.it provides
+							controlling how the widgets actually be have and how thay will look on to
+							the screen.
+
+	column:
+	-------
+			A column widget is a type of widget the arranges all its childs widgets in a vartical
+			alignment.
+			
+			its provides spaccing beetween the widgets by using the mainAxisaligment and cross axisaliment
+			propaties..
+
+			in there propaties,the main axis is vartical axis and the cross axis is the horizontal exits.
+	
+-----------------------------------------------------------------------------------------------------------
+blancks
+-------------------------------------------------------------
+		Column widget
+	------------------
+
+A column widget does not apper scrollable becacauze it display the widget widgets witin the visible 
+	view.so it in consided wrong if we have more children in a colum which in a column which will not 
+	fit in the avalible space.if we want to make a scrollble list of column widgets, we need to use the 
+	list view widget.
+-----------------------------------------------------------------------
+Text widget propeties :
+-----------------------
+	---TextAlien: It is used to specify how our text is aligned horizontally.it is control the text location.
+
+	---TextDirection:
+						It is used to determine how text alien values control the layout of our text
+						usally,we write text from left to right but we can change it using this parameter.
+
+	---overFlow:
+					it is used to determine when the will not fit in the avalible space.it means 
+						we have specifield more text then the avalible space.
+	---
+
+blanks
+-----------------------------------------------------------
+							TextField:
+							---------
+
+
+	----->A textfield or textbox is an input element which holds the alphnumeric data,such as name,
+			password,address,etc it is a Gui control element that enable the user to the center text
+			information using a programmable code
+
+	Child:text(
+			
+			obscureText:true,
+
+			decoration:inputDecoration(
+
+		border:outlineinputborder(),
+
+		labeltext:'password',
+
+		hintText:'Enter Password',
+
+		),
+
+-------------------------------------------------------------------------------------
+
+						TextField propaties
+						--------------------
+
+-->decoration: It is used to show the decoration around TextField.
+
+-->border: it is used to create a defalt rounded rectangle border around text field.
+
+-->Labeltext: It is used to show the label text on the selection of Textfield.
+
+-->hintText: it is used to show the hint text inside TextField.
+
+-->icon: It is used to add icons directly to TextField.
+
+		E.G.
+		
+	prefixicon:icon(icons.person),
+-----------------------------------------------------------------
+
+					Custom textfield border:
+`					------------------------
+
+	enabledBorder : Decoration when text field is not in Focus but is enable.
+	
+	disableborder : decoration when text field is desible.
+
+	errorBorder : Decoration to show during order.
+
+	focusedBorder : Decoration when text field is in focus.
+	
+	focusederrorBorder : Decoration when focused text field has error.
+
+	Border : Decoratin based on the apps them data.chanching decoration color via the border propati
+				off text field has no effect
+-----------------------------------------------------------------------
+
+						FLutter Buttons:
+						----------------
+	--> Buttons are the graphical control element that provides  auser to trigger an event such as tacking
+		action,making choices,searching things,and many more.they can be placed any where in our UI
+		like dialogs,forms,cards,toolbars,etc...
+
+	Types of flutter Buttons
+	------------------------
+1.	Flat Button
+
+2.	Raised Button
+
+3.	Floating Button
+
+4.	Drop down Button
+
+5.	Icon Button
+
+6.	inkwell Button
+
+7.	PopupMenu Button
+
+8.	Outline Button
+
+--------------------------------------------------------------------------------------
+
+		There are mainy two types of widgerts
+		-------------------------------------
+
+	*	Stateless Widgets
+
+	*	stateful Widgets.
+
+	stateful Widgets
+	----------------
+
+--> A Stateful widgets has state informations. it conrtains mainly two classes : the (State object)
+		and the (widgets).
+
+	It is daynamic because it can change the inner data during the widget lifetime.
+
+	This widgets does not have a build()method.it has create state()method,which returns a class that
+	extends the flutters state class.the 
+---------------------------------------------------------------------------------------
+	
+	Flutter apps can include both code and assents (sometimes called resocus).
+	
+	An assent is a file that is bundled and deployed with your app,
+			and is accisible at run time.
+
+	common types of assents includes static data (For example,Json files),configuration files,
+			icons,and image(JPEG,webP GIF,animated web/GIF,pNG,BMP,and wBMP).
+----------------------------------------------------------------------------------------------
+
+A FBA button is a circular icon button that triggers the primary action in our application .It is the most used button in today's applictions. We can use this button for adding,refreshing,orSharing the content.Flutter suggests using 
+at most  one FAB button per screen .There are two types of floating Action Button:
+
+FloatingActionButton:It creates a simple circular floating button with a child widget inside it.
+It must have a child parameter to display a widget.
+
+FloatingActionButton.extended:It creates a wide floating button along button along with an icon and a
+lable inside it .Instead of a child it uses lables and icon parameters.
+
+------------------------------------------------------------------------------------------------------
+	Group Value : 	it is used to specify the currently selected item for the radio button group.
+
+	title : it is used spacify the radio button level.
+	
+	value : it is specifiles the backhad value,which is represented by a radio button.
+
+	on changed : it will be called when ever the user selects the radio button.
+
+-------------------------------------------------------------------------------------------
+LIST
+----
+	which include text,buttons,toogles,icons,tumbuines,and many more.we can use it for displaying
+	various information such as menus,tabs..
+
+	
+
+	* Basic lists.
+	
+	* long lists.
+	
+	* grid lists.
+
+	* horizontal lists.
